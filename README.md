@@ -8,7 +8,7 @@ A simple command-line client for interacting with the Nostr protocol, a decentra
 - **Python Version**: Python 3.8 or higher is recommended (tested with Python 3.10).
 - Install dependencies using pip:
   ```bash
-  pip3 install pynostr==0.7.0 cryptography tornado websocket-client
+  pip3 install pynostr==0.7.0 cryptography tornado websocket-client bech32
 Dependencies
 
 pynostr==0.7.0: Core library for Nostr protocol interactions.

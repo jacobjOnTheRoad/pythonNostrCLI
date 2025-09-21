@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 import base64
 
 # Paste the Fernet key you retrieved from setup_db.py
-encryption_key_b64 = b'p3pf6lfyx_udB5HmZfYifuJE-sZ2DEcF08ngv-hWaCg='  # Replace with the key you copied
+encryption_key_b64 = b'Copy/paste the Fenter key string created by your run of setup_db.py here'  # Replace with the key you copied
 cipher = Fernet(encryption_key_b64)
 
 # Generate keys
